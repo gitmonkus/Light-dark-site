@@ -57,7 +57,9 @@ img,
 button,
 h1,
 label,
-#post {
+#post,
+#post1,
+#post2 {
   transition: all 0.2s ease-in-out;
 }
 
@@ -65,6 +67,8 @@ img:hover,
 button:hover,
 label:hover,
 #post:hover,
+#post1:hover,
+#post2:hover,
 #dark-post:hover {
   transform: scale(1.05);
 
