@@ -53,14 +53,26 @@ img {
   box-shadow: 2px 2px 4px 0px var(--dark);
   border-radius: 5px;
 }
-img {
+img,
+button,
+h1,
+label,
+#post {
   transition: all 0.2s ease-in-out;
 }
 
-img:hover {
+img:hover,
+button:hover,
+label:hover,
+#post:hover,
+#dark-post:hover {
   transform: scale(1.05);
 
   box-shadow: 2px 2px 20px var(--box-shadow);
+}
+
+h1:hover {
+  text-shadow: 2px 2px 20px var(--box-shadow);
 }
 
 #post,
