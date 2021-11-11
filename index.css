@@ -59,7 +59,8 @@ h1,
 label,
 #post,
 #post1,
-#post2 {
+#post2,
+#dark-post {
   transition: all 0.2s ease-in-out;
 }
 
